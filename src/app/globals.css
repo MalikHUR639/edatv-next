@@ -18,6 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  /* font-family: 'Domine', serif; */
   background: linear-gradient(
       to bottom,
       transparent,
@@ -31,3 +32,20 @@ body {
     text-wrap: balance;
   }
 }
+
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+

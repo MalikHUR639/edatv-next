@@ -1,0 +1,7 @@
+input:checked ~ #underlay {
+    display: block;
+  }
+  
+  input:checked ~ #dropdownPanel {
+    display: block;
+  }

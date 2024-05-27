@@ -1,7 +1,13 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Domine } from 'next/font/google';
+import './globals.css';
+import Footer from '@/components/footer/page';
+import Header from '@/components/header/page';
 
-const inter = Inter({ subsets: ["latin"] });
+const domine = Domine({
+  subsets: ['latin'],
+  weights: ['300', '400', '500', '600', '700'],
+  display: 'swap'
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +17,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${domine.className} flex flex-col min-h-screen`}>
+      <Header />      
+        <main className="flex-grow bg-white text-black">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
