@@ -32,7 +32,7 @@ const Header = () => {
 
             </header>
             <ScrollMenu />
-            <hr class="w-full mx-auto border-[#f3f3f3]" />
+            <hr className="w-full mx-auto border-[#f3f3f3]" />
         </>
     );
 };

@@ -3,13 +3,13 @@ import Link from "next/link";
 import React from "react";
 
 const article = {
-    link: "https://edatv.news/deportes/por-que-laporta-echa-xavi-hernandez-del-barcelona",
+    link: "/",
     imageSrc: "https://edatv.news/filesedc/uploads/image/post/jaime-del-burgo-3-1716552003981_1200_800.webp",
     imageAlt: "laporta y xavi hernanadez",
-    categoryLink: "https://edatv.news/deportes",
+    categoryLink: "/",
     category: "DEPORTES",
     title: "¿Por qué Laporta echa a Xavi Hernández del Barcelona?",
-    authorLink: "https://edatv.news/autores/rafael-alejandro-escalona",
+    authorLink: "/",
     author: "Rafael Escalona",
     excerpt: "Finalmente, la destitución de Xavi Hernández marca un nuevo capítulo en la historia del FC Barcelona"
 };
@@ -37,7 +37,7 @@ const MainColumn = () => {
                 </div>
                 <div className="title mt-2">
                     <Link href={article.link}>
-                        <h2 className="text-[43px] font-bold">{article.title}</h2>
+                        <h2 className="text-[32px] md:text-[43px] font-bold">{article.title}</h2>
                     </Link>
                 </div>
                 <div className="mt-2 flex items-center text-[18px] space-x-4 text-[#8c8c8c]">
@@ -56,7 +56,6 @@ const MainColumn = () => {
                     </Link>
                 </div>
             </article>
-            {/* <hr className="hidden lg:block h-full w-[1px] mb-3 border-[#f3f3f3] border-r-2 opacity-50" /> */}
         </div>
     )
 };

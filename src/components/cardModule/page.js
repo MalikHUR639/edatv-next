@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 
@@ -50,37 +51,37 @@ const articles = [
 
 const CardModule = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-4 w-full mb-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full mb-5">
       {articles.map((article, index) => (
         <div key={index} 
-        className={`relative p-4 ${
-            index % 4 !== 3 ? 'after:content-[""] after:absolute after:top-0 after:right-0 after:bottom-0 after:translate-x-3 after:translate-y-[-28px] after:w-[0.5px] after:bg-gray-300' : ''
+        className={`relative p-3 md:py-0 lg:${
+            index % 4 !== 3 ? 'after:content-[""] after:absolute after:top-0 after:right-0 after:bottom-0 after:translate-x-3 after:translate-y-[-16px] after:w-[0.5px] after:bg-gray-300' : ''
           }`}
         >
           <article>
             <Link href={article.link} passHref>
-              <Link title={article.title} href={'/'}>
+              <span title={article.title} href={'/'}>
                 <figure>
-                  <img src={article.imageSrc} alt={article.imageAlt} className="w-full h-auto mb-2" />
+                  <Image src={article.imageSrc} alt={article.imageAlt} width={228} height={150} className="w-full h-auto mb-2" />
                 </figure>
-              </Link>
+              </span>
             </Link>
             <Link href={article.categoryLink} passHref>
-              <Link href={'/'} className="text-[#cf1133] uppercase text-sm font-bold">{article.category}</Link>
+              <span href={'/'} className="text-[#cf1133] uppercase text-sm font-bold">{article.category}</span>
             </Link>
             <div className="mt-2">
               <Link href={article.link} passHref>
-                <Link href={'/'} title={article.title}>
+                <span href={'/'} title={article.title}>
                   <h2 className="text-xl font-semibold">{article.title}</h2>
-                </Link>
+                </span>
               </Link>
             </div>
             <div className="flex gap-3 items-center mt-2 text-gray-600 uppercase text-sm">
               <Link href={article.authorLink} passHref>
-                <Link href={'/'}  className="font-semibold">{article.author}</Link>
+                <span href={'/'}  className="font-semibold">{article.author}</span>
               </Link>
               <Link href={article.link} passHref>
-                <Link href={'/'}  className="font-semibold">💬</Link>
+                <span href={'/'}  className="font-semibold">💬</span>
               </Link>
             </div>
           </article>

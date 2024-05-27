@@ -9,9 +9,11 @@ const CoverModule = ({ order }) => {
             case 1:
                 return (
                     <>
-                        <div className="grid grid-cols-[100%] gap-4 md:grid-cols-[33%,33%,33%] lg:grid-cols-[40%,30%,25%]">
+                        <div className="grid grid-cols-[100%] md:grid-cols-[31%,auto,33%,auto,31%] lg:grid-cols-[40%,auto,30%,auto,25%] gap-4 ">
                             <MainColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <DetailColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <SubColumn />
                         </div>
                     </>
@@ -19,9 +21,11 @@ const CoverModule = ({ order }) => {
             case 2:
                 return (
                     <>
-                        <div className="grid grid-cols-[100%] gap-4 md:grid-cols-[33%,33%,33%] lg:grid-cols-[30%,40%,25%]">
+                        <div className="grid grid-cols-[100%] md:grid-cols-[33%,auto,31%,auto,31%] lg:grid-cols-[30%,auto,40%,auto,25%] gap-4 ">
                             <DetailColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <MainColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <SubColumn />
                         </div>
                     </>
@@ -29,7 +33,7 @@ const CoverModule = ({ order }) => {
             case 3:
                 return (
                     <>
-                        <div className="grid grid-cols-[100%] md:grid-cols-[33%,auto,33%,auto,33%] lg:grid-cols-[40%,auto,25%,auto,30%] gap-4">
+                        <div className="grid grid-cols-[100%] md:grid-cols-[31%,auto,31%,auto,33%] lg:grid-cols-[40%,auto,25%,auto,30%] gap-4 ">
                             <MainColumn />
                             <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <SubColumn />
@@ -41,9 +45,11 @@ const CoverModule = ({ order }) => {
             case 4:
                 return (
                     <>
-                        <div className="grid grid-cols-[100%] md:grid-cols-[33%,33%,33%] lg:grid-cols-[40%,30%,25%] gap-4">
+                        <div className="grid grid-cols-[100%] md:grid-cols-[31%,auto,33%,auto,31%] lg:grid-cols-[40%,auto,30%,auto,25%] gap-4 ">
                             <p className="text-center text-[#7c7b7b] text-xs font-normal">PUBLICIDAD</p>
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <DetailColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <SubColumn />
                         </div>
                     </>
@@ -51,9 +57,11 @@ const CoverModule = ({ order }) => {
             case 5:
                 return (
                     <>
-                        <div className="grid grid-cols-[100%] md:grid-cols-[33%,33%,33%] lg:grid-cols-[30%,30%,40%] gap-4">
+                        <div className="grid grid-cols-[100%] md:grid-cols-[33%,auto,33%,auto,31%] lg:grid-cols-[30%,auto,30%,auto,25%] gap-4 ">
                             <DetailColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <DetailColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <p className="text-center text-[#7c7b7b] text-xs font-normal">PUBLICIDAD</p>
                         </div>
                     </>
@@ -61,9 +69,11 @@ const CoverModule = ({ order }) => {
             default:
                 return (
                     <>
-                        <div className="grid grid-cols-[100%] md:grid-cols-[33%,33%,33%] lg:grid-cols-[40%,30%,25%]">
+                        <div className="grid grid-cols-[100%] md:grid-cols-[31%,auto,31%,auto,31%] lg:grid-cols-[40%,auto,30%,auto,25%] gap-4 ">
                             <MainColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <DetailColumn />
+                            <hr className="h-full w-[1px] border-[#f3f3f3] border-r-2 opacity-50 mx-auto" />
                             <SubColumn />
                         </div>
                     </>
@@ -72,7 +82,7 @@ const CoverModule = ({ order }) => {
     };
 
     return (
-        <div className="mb-[50px] gap-[10px] mt-[20px] p-[1em]">
+        <div className="mb-[50px] gap-[10px] lg:mt-[20px] px-[1em] md:px-[2em]">
             {renderColumns()}
         </div>
     );

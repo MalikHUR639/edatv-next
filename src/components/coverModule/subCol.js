@@ -62,7 +62,7 @@ const SubColumn = () => {
                                 </Link>
                             </div>
                         </div>
-                        <hr class="mb-2 w-full mx-auto border-b-2 border-gray-100 opacity-[1.5px]" />
+                        <hr className="mb-2 w-full mx-auto border-b-2 border-gray-100 opacity-50" />
                     </article>
                 ))}
             </div>

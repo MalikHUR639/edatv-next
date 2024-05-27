@@ -95,9 +95,9 @@ const Footer = () => {
                         {corporativeLinks.map((link, index) => (
                             <div key={index} className="relative flex items-center mb-2">
                                 <Link href={link.href}>
-                                    <Link href='' className="text-xs md:text-sm lg:text-lg" title={link.title}>
+                                    <div className="text-xs md:text-sm lg:text-lg">
                                         {link.title}
-                                    </Link>
+                                    </div>
                                 </Link>
                                 {index < corporativeLinks.length - 1 && (
                                     <span className="h-full border-r border-gray-300 ml-4"></span>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Divider = ({title}) => {
     return (
-        <div className="hidden lg:block">
+        <div className="hidden md:block">
             <Link className="no-underline text-inherit" href={'/'}>
                 <div className="relative uppercase text-left pt-[4px] text-black mx-2.5">
                     <span className="text-xl font-bold font-sans float-left">{title}</span>
