@@ -4,12 +4,12 @@ import React from 'react';
 
 const highlightsData = [
     {
-        mainLink: "https://example.com",
-        commentLink: "https://example.com/comments",
-        authorLink: "https://example.com/author",
+        mainLink: "/",
+        commentLink: "/",
+        authorLink: "/",
         imageSrc: "https://edatv.news/filesedc/uploads/image/post/jose-felix-tezanos-europeas_1600_1067.webp",
         imageAlt: "José Félix Tezanos",
-        articleLink: "https://example.com/article",
+        articleLink: "/",
         author: "Adais Cásares",
         articleTitle: "Última hora: El CIS de Tezanos dispara a Sánchez y Alvise",
         articleDescription: "El amigo de Sánchez, José Félix Tezanos, ya tiene sus datos sobre los resultados de las elecciones europeas"

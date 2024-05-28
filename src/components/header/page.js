@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <header className="flex items-center justify-between sm:justify-center gap-[4px] sm:gap-3 text-sm leading-relaxed p-3 bg-[#131722] border-b-4 border-white">
                 <div className="flex items-center mr-[70px]">
-                    <Link href="https://edatv.news" title="edatv.news">
+                    <Link href="/" title="edatv.news">
                         <Image
                             className="object-contain main-image"
                             src="https://edatv.news/filesedc/uploads/other/logo-header/537_baseline.svg"

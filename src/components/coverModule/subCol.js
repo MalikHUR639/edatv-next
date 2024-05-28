@@ -5,26 +5,26 @@ import React from "react";
 const SubColumn = () => {
     const articles = [
         {
-            href: "https://edatv.news/politica/alcalde-mostoles-manuel-bautista-humilla-concejal-mas-madrid",
+            href: "/",
             title: "El alcalde de Móstoles Manuel Bautista humilla a un concejal de Más Madrid",
             imgSrc: "https://edatv.news/filesedc/uploads/image/post/jaime-del-burgo-2-1716549128351_1200_800.webp",
             imgAlt: "alcalde de Móstoles batista y el concejal delgado",
-            authorHref: "https://edatv.news/autores/rafael-alejandro-escalona",
+            authorHref: "/",
             authorName: "Rafael Escalona",
-            categoryHref: "https://edatv.news/politica",
+            categoryHref: "/",
             categoryName: "POLÍTICA",
-            commentsHref: "https://edatv.news/politica/alcalde-mostoles-manuel-bautista-humilla-concejal-mas-madrid"
+            commentsHref: "/"
         },
         {
-            href: "https://edatv.news/politica/nefasta-experiencia-pasajero-ave-madrid-gijon-que-sonroja-oscar-puente",
+            href: "/",
             title: "La nefasta experiencia de un pasajero de AVE Madrid-Gijón que sonroja a Óscar Puente",
             imgSrc: "https://edatv.news/filesedc/uploads/image/post/la-ultima-critica-contra-los-trenes-de-oscar-puente_1200_800.webp",
             imgAlt: "La última crítica contra los trenes de Óscar Puente",
-            authorHref: "https://edatv.news/autores/jose-andres-jorge-barcelo",
+            authorHref: "/",
             authorName: "Jose Andres Jorge Barceló",
-            categoryHref: "https://edatv.news/politica",
+            categoryHref: "/",
             categoryName: "POLÍTICA",
-            commentsHref: "https://edatv.news/politica/nefasta-experiencia-pasajero-ave-madrid-gijon-que-sonroja-oscar-puente"
+            commentsHref: "/"
         },
     ];
 

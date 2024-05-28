@@ -20,7 +20,7 @@ const menuData = [
   { "title": "Canarias", "href": "/tags/canarias" },
   { "title": "Andalucía", "href": "/tags/andalucia" },
   { "title": "Aragón", "href": "/tags/aragon" },
-  { "title": "InformaRadio", "href": "https://informaradio.edatv.news" }
+  { "title": "InformaRadio", "href": "/" }
 ];
 
 const DropdownMenu = () => {
@@ -44,7 +44,7 @@ const DropdownMenu = () => {
       {isOpen && (
         <>
           <div className="fixed inset-0 bg-black bg-opacity-50" id="underlay" onClick={toggleDropdown}></div>
-          <div className="absolute md:left-0 md:mt-2 md:w-[333px] max-w-md bg-[#ebf0f0] text-black text-sm border rounded-lg shadow-lg z-20 left-[-20px] transform -translate-x-1/2 mt-4" id="dropdownPanel">
+          <div className="absolute w-max md:left-0 md:mt-2 md:w-[333px] max-w-md bg-[#ebf0f0] text-black text-sm border rounded-lg shadow-lg z-20 left-[-20px] transform -translate-x-1/2 mt-4" id="dropdownPanel">
             <div className="p-4">
               <ul className="navbar-header">
                 {menuData.map((item, index) => (
