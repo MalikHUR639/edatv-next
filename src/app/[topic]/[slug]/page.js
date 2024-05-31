@@ -2,6 +2,7 @@
 
 import AdContainer from "@/components/adContainer/page";
 import PostCard from "@/components/postCard/page";
+import Table from "@/components/table/page";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -137,6 +138,8 @@ const Page = () => {
                             Según el diario Última Hora, este documento se enviará a la autoridad judicial y a la Policía Nacional en las próximas horas.
                         </p>
                         <AdContainer />
+                        <p className="mb-[1em] text-lg text-center font-normal leading-[1.5em]"><strong>Los dos mejores gazpachos de supermercado según la OCU</strong></p>
+                        <Table />
                         <div className="w-[80%] mx-auto">
                             <Image
                                 src="https://edatv.news/filesedc/uploads/image/post/2852379_1600_1067.webp"

@@ -1,62 +1,62 @@
+import Image from 'next/image';
 import Link from 'next/link';
-// import React from 'react';
 
 const socialLinks = [
     {
         href: '/',
         title: 'Follow us on Facebook',
-        icon: <img src="https://edatv.news/filesedc/footericons/facebook.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Facebook" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/facebook.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Facebook" />,
     },
     {
         href: '/',
         title: 'Follow us on Twitter',
-        icon: <img src="https://edatv.news/filesedc/footericons/twitter.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Twitter" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/twitter.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px]' width={30} height={30} alt="Twitter" />,
     },
     {
         href: '/',
         title: 'Follow us on Instagram',
-        icon: <img src="https://edatv.news/filesedc/footericons/instagram.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Instagram" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/instagram.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Instagram" />,
     },
     {
         href: '/',
         title: 'Subscribe to our YouTube channel',
-        icon: <img src="https://edatv.news/filesedc/footericons/youtube.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Youtube" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/youtube.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Youtube" />,
     },
     {
         href: '/',
         title: 'Follow us on Telegram',
-        icon: <img src="https://edatv.news/filesedc/footericons/telegram.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Telegram" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/telegram.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Telegram" />,
     },
     {
         href: '/',
         title: 'Download our Android app',
-        icon: <img src="https://edatv.news/filesedc/footericons/playstore.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Play Store" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/playstore.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Play Store" />,
     },
     {
         href: '/',
         title: 'Download our IOS app',
-       icon: <img src="https://edatv.news/filesedc/footericons/applestore.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Apple Store" />,
+       icon: <Image src="https://edatv.news/filesedc/footericons/applestore.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Apple Store" />,
     },
     {
         href: '/',
         title: 'Follow us on Google News',
-        icon: <img src="https://edatv.news/filesedc/footericons/googlenews.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Google News" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/googlenews.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Google News" />,
 
     },
     {
         href: '/',
         title: 'Follow us on DailyMotion',
-        icon: <img src="https://edatv.news/filesedc/footericons/dailymotion.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="Daily Motion" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/dailymotion.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="Daily Motion" />,
     },
     {
         href: '/',
         title: 'Follow us on TikTok',
-        icon: <img src="https://edatv.news/filesedc/footericons/tiktok.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' alt="TikTok" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/tiktok.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px] ' width={30} height={30} alt="TikTok" />,
     },
     {
         href: '/',
         title: 'Chat with us on WhatsApp',
-        icon: <img src="https://edatv.news/filesedc/footericons/whatsapp.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px]' alt="WhatsApp" />,
+        icon: <Image src="https://edatv.news/filesedc/footericons/whatsapp.svg" className='w-[30px] md:w-[35px] lg:w-[40px] xl:w-[50px]' width={30} height={30} alt="WhatsApp" />,
     },
 ];
 

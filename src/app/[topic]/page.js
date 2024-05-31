@@ -124,12 +124,11 @@ const TopicCards = () => {
               height={800}
               className="w-full"
             />
-            <hr className="border-1 border-gray-400 my-6 mx-6" />
+            <hr className="border-1 border-gray-400 my-6" />
           </div>
-
           <div className="inner-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-7">
-            {currentItems.map((card) => (
-              <div key={card.id} className="card-container w-full bg-white pb-4">
+            {currentItems.map((card, index) => (
+              <div key={card.id} className="card-container w-full bg-white pb-4 relative">
                 <div>
                   <Link href={card.link}>
                     <Image
@@ -153,6 +152,11 @@ const TopicCards = () => {
                     </Link>
                   </div>
                 </div>
+                {index % 2 === 0 && index < currentItems.length - 1 && (
+                  <div className="absolute top-0 -right-4 h-[95%]">
+                    <div className="h-full w-0.5 bg-gray-100 mx-auto"></div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
