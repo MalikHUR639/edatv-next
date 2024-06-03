@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['edatv.news'],
+        domains: ['edatv.news','filesedc.com'],
     },
 };
 

@@ -61,15 +61,15 @@ const socialLinks = [
 ];
 
 const corporativeLinks = [
-    { href: '/', title: 'About us' },
-    { href: '/', title: 'Contact and advertising' },
-    { href: '/', title: 'Legal warning' },
-    { href: '/', title: 'Privacy Policy' },
-    { href: '/', title: 'Cookies policy' },
-    { href: '/', title: 'Authors' },
-    { href: '/', title: 'Site Map' },
-    { href: '/', title: 'RSS' },
-    { href: '/', title: 'Tags' },
+    { href: '/quienes-somos', title: 'Quiénes somos' },
+    { href: '/contacto-publicidad', title: 'Contacto y publicidad' },
+    { href: '/aviso-legal-edatv', title: 'Aviso Legal' },
+    { href: '/politica-privacidad-edatv', title: 'Política de privacidad' },
+    { href: '/politica-cookies-edatv', title: 'Política de Cookies' },
+    { href: '/autores', title: 'Autores' },
+    { href: '/mapa-sitio-edatv', title: 'Mapa del sitio' },
+    { href: '/rss', title: 'RSS' },
+    { href: '/tags', title: 'Tags' },
 ];
 
 const Footer = () => {
