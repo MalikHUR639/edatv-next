@@ -16,7 +16,7 @@ const menuItems = [
   { title: 'Canarias', href: '/tags/canarias' },
   { title: 'Andalucía', href: '/tags/andalucia' },
   { title: 'Aragón', href: '/tags/aragon' },
-  { title: 'InformaRadio', href: 'https://informaradio.edatv.news' },
+  { title: 'InformaRadio', href: '/' },
   { title: 'Colabora con nosotros', href: '/info/3097/apoya-edatv-news' },
 ];
 

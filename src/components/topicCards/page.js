@@ -1,5 +1,6 @@
 import React from "react";
 import Link from 'next/link'
+import Image from "next/image";
 
 const TopicCards = () => {
   return (
@@ -58,50 +59,54 @@ const TopicCards = () => {
         </div>
 
         <div className="inner-container w-auto flex flex-wrap mx-auto gap-7">
-          <div class="w-60 bg-white mb-5">
+          <div className="w-60 bg-white mb-5">
             <Link href="#">
-              <img
-                class="object-cover h-25 w-full"
+              <Image
+                className="object-cover h-25 w-full"
                 src="https://edatv.news/filesedc/uploads/image/post/la-ultima-critica-contra-los-trenes-de-oscar-puente_1200_800.webp"
                 alt="edatv.news img"
+                width={25}
+                height={25}
               />
             </Link>
-            <div class="p-0.5">
-              <h3 class="text-[#cf1133] font-medium uppercase text-[10px] mb-0.5">
+            <div className="p-0.5">
+              <h3 className="text-[#cf1133] font-medium uppercase text-[10px] mb-0.5">
                 POLÍTICA
               </h3>
-              <h2 class="text-[13px] font-[500] leading-tight mb-0.5">
+              <h2 className="text-[13px] font-[500] leading-tight mb-0.5">
                 <Link href="#">
                   ¿Quién es Miguel Frontera, el que le dio jarabe democrático a
                   Pablo Iglesias?
                 </Link>
               </h2>
-              <Link href="" class="text-[10px] text-[#8c8c8c]">
+              <Link href="" className="text-[10px] text-[#8c8c8c]">
                 ADAIS CÁSARES <span>💬</span>
               </Link>
             </div>
           </div>
           <div className="border-l-2 text-[#f3f3f3] hidden md:block"></div>
 
-          <div class="w-60 bg-white mb-5">
+          <div className="w-60 bg-white mb-5">
             <Link href="#">
-              <img
-                class="object-cover h-25 w-full"
+              <Image
+                className="object-cover h-25 w-full"
                 src="https://edatv.news/filesedc/uploads/image/post/la-ultima-critica-contra-los-trenes-de-oscar-puente_1200_800.webp"
                 alt="edatv.news img"
+                width={25}
+                height={25}
               />
             </Link>
-            <div class="p-0.5">
-              <h3 class="text-[#cf1133] font-medium uppercase text-[10px] mb-0.5">
+            <div className="p-0.5">
+              <h3 className="text-[#cf1133] font-medium uppercase text-[10px] mb-0.5">
                 POLÍTICA
               </h3>
-              <h2 class="text-[13px] font-[500] leading-tight mb-0.5">
+              <h2 className="text-[13px] font-[500] leading-tight mb-0.5">
                 <Link href="#">
                   ¿Quién es Miguel Frontera, el que le dio jarabe democrático a
                   Pablo Iglesias?
                 </Link>
               </h2>
-              <Link href="" class="text-[10px] text-[#8c8c8c]">
+              <Link href="" className="text-[10px] text-[#8c8c8c]">
                 ADAIS CÁSARES <span>💬</span>
               </Link>
             </div>

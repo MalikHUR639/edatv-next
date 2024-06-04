@@ -37,7 +37,7 @@ const ContactAndAdvertisement = () => {
                 <p>
                     Puedes contactar con nosotros para tarifas, espacios y propuestas de <strong>publicidad:</strong>
                 </p>
-                <p className="mt-5 text-sm md:text-md xl:text-lg"><strong>Correo:&nbsp;</strong><a href={`mailto:${contactInfo.email}`}><span className="text-[#337ab7]">{contactInfo.email}</span></a></p>
+                <p className="mt-5 text-sm md:text-md xl:text-lg"><strong>Correo:&nbsp;</strong><Link href={'/'}><span className="text-[#337ab7]">{contactInfo.email}</span></Link></p>
                 <p className="text-sm md:text-md xl:text-lg"><strong>Dirección:</strong>&nbsp;{contactInfo.address}</p>
                 <p className="text-sm md:text-md xl:text-lg"><strong>Teléfono:</strong>&nbsp;{contactInfo.phone}</p>
             </div>

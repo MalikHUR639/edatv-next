@@ -119,7 +119,6 @@ const TopicCards = () => {
             <Image
               src="https://edatv.news/filesedc/uploads/categories/537/1200/politica%20edatv.webp"
               alt="edatv img"
-              layout="responsive"
               width={1200}
               height={800}
               className="w-full"
@@ -135,7 +134,6 @@ const TopicCards = () => {
                       className="object-cover h-25 w-full"
                       src={card.imageUrl}
                       alt="edatv.news img"
-                      layout="responsive"
                       width={1200}
                       height={800}
                     />

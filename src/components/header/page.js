@@ -29,10 +29,9 @@ const Header = () => {
                         src='https://edatv.news/filesedc/uploads/other/logo-header/social/Telegram.svg'
                     />
                 </div>
-
             </header>
             <ScrollMenu />
-            <hr className="w-full mx-auto border-[#f3f3f3]" />
+            {/* <hr className="w-full mx-auto border-[#f3f3f3]" /> */}
         </>
     );
 };

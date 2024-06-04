@@ -90,7 +90,7 @@ const sections = [
     {
         "title": "6. ¿CUÁLES SON SUS DERECHOS CUANDO NOS FACILITA SUS DATOS?",
         "paragraphs": [
-            " El Usuario tiene derecho a:",
+            "El Usuario tiene derecho a:",
             "o   Acceder a sus datos personales.",
             "o   Solicitar la rectificación aquellos datos que sean inexactos",
             "o   Solicitar su supresión.",
