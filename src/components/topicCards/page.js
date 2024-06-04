@@ -10,10 +10,12 @@ const TopicCards = () => {
           <div className="card-container w-60 bg-white mb-5">
             <div>
               <Link href="#">
-                <img
+                <Image
                   className="object-cover h-25 w-full"
                   src="https://edatv.news/filesedc/uploads/image/post/la-ultima-critica-contra-los-trenes-de-oscar-puente_1200_800.webp"
                   alt="edatv.news img"
+                  width={25}
+                  height={25}
                 />
               </Link>
               <div className="p-0.5">
@@ -35,10 +37,12 @@ const TopicCards = () => {
           <div className="card-container w-60 bg-white mb-5">
             <div>
               <Link href="#">
-                <img
+                <Image
                   className="object-cover h-25 w-full"
                   src="https://edatv.news/filesedc/uploads/image/post/la-ultima-critica-contra-los-trenes-de-oscar-puente_1200_800.webp"
                   alt="edatv.news img"
+                  width={25}
+                  height={25}
                 />
               </Link>
               <div className="p-0.5">
