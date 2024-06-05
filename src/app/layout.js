@@ -17,9 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${domine.className} flex flex-col min-h-screen`}>
+      <body className={`${domine.className} flex flex-col min-h-screen max-sm:pt-[70px]`}>
       <Header />      
-        <main className="flex-grow bg-white text-black">{children}</main>
+        <main className="flex-grow -mt-[7px] bg-white text-black">{children}</main>
         <Footer />
       </body>
     </html>

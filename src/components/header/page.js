@@ -7,13 +7,13 @@ import ScrollMenu from '../scrollMenu/page';
 const Header = () => {
     return (
         <>
-            <header className="flex items-center justify-between sm:justify-center gap-[4px] sm:gap-3 text-sm leading-relaxed p-3 bg-[#131722] border-b-4 border-white">
+            <header className="flex items-center justify-between sm:justify-center gap-[4px] sm:gap-3 text-sm leading-relaxed p-3 bg-[#014260] border-b-4 border-white max-sm:fixed max-sm:w-[100%] max-sm:top-0 max-sm:z-[100]">
                 <div className="flex items-center mr-[70px]">
                     <Link href="/" title="edatv.news">
                         <Image
                             className="object-contain main-image"
-                            src="https://edatv.news/filesedc/uploads/other/logo-header/537_baseline.svg"
-                            alt="Logo edatv.news"
+                            src="/brand-logo.png"
+                            alt="cardizo"
                             width={211}
                             height={40}
                         />

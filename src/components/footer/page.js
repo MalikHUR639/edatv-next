@@ -74,7 +74,7 @@ const corporativeLinks = [
 
 const Footer = () => {
     return (
-        <footer className="relative bg-[#202020] text-white pt-[0.5rem] md:pt-[1.1rem]">
+        <footer className="relative bg-[#014260] text-white pt-[0.5rem] md:pt-[1.1rem]">
             <div className="mx-auto">
                 <div className="flex flex-col items-center">
                     <div className="flex flex-wrap justify-center md:mb-2 lg:mb-4 space-x-[15px]">
@@ -91,7 +91,7 @@ const Footer = () => {
                             </Link>
                         ))}
                     </div>
-                    <div className="flex flex-wrap justify-center mb-2 md:mb-4 space-x-4">
+                    <div className="flex flex-wrap justify-center mb-2 md:mb-4 space-x-[10px]">
                         {corporativeLinks.map((link, index) => (
                             <div key={index} className="relative flex items-center mb-2">
                                 <Link href={link.href}>
@@ -107,7 +107,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="text-center w-full bg-[#273238] justify-center leading-[55px] border-t-2 border-[#273238]">
+            <div className="text-center w-full bg-[#014260] justify-center leading-[55px] border-t-2 border-[#273238]">
                 <Link href="/"
                     rel="nofollow noopener noreferrer"
                     className="text-sm"

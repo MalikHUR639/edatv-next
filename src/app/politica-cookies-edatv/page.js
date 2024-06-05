@@ -72,7 +72,7 @@ const page = () => {
   return (
     <>
       <div className="w-full">
-        <div className="max-w-[1100px] m-auto py-6 px-2 md:px-12">
+        <div className="max-w-[1100px] m-auto py-2 px-2 md:px-12">
           <div className="text-[20px] md:text-[30px] xl:text-[40px] font-bold text-center py-6">
             <h1>Política de Cookies</h1>
           </div>
@@ -193,40 +193,39 @@ const page = () => {
               relevante y de calidad para él a partir de sus gustos.
             </p>
           </div>
-
-          {/* <div className="w-[200px]">
-            <p className="text-sm md:text-md xl:text-lg">Las cookies que se utilizan en el Sitio Web son:</p>
+          <div className="w-[200px] text-[9px] md:text-[18px]">
+            <p>Las cookies que se utilizan en el Sitio Web son:</p>
             <div className="">
               <table className=" border border-[#c2c6cc] w-52 py-4">
                 <thead>
                   <tr className="border border-[#c2c6cc]">
-                    <td className="border border-[#c2c6cc]  p-2 text-[px]">
+                    <td className="border border-[#c2c6cc] md:p-2">
                       Nombre
                     </td>
-                    <td className="border border-[#c2c6cc]  p-2">Categoría</td>
-                    <td className="border border-[#c2c6cc]  p-2">Meta</td>
-                    <td className="border border-[#c2c6cc] p-2">
+                    <td className="border border-[#c2c6cc] md:p-2">Categoría</td>
+                    <td className="border border-[#c2c6cc] md:p-2">Meta</td>
+                    <td className="border border-[#c2c6cc] md:p-2">
                       Tiempo de caducidad de las cookies
                     </td>
-                    <td className="border border-[#c2c6cc] p-2">Proveedor</td>
+                    <td className="border border-[#c2c6cc] md:p-2">Proveedor</td>
                   </tr>
                 </thead>
                 <tbody>
                   {tableData.map((item, index) => (
                     <tr key={index} className="border border-[#c2c6cc]">
-                      <td className="border border-[#c2c6cc] p-2">
+                      <td className="border border-[#c2c6cc] md:p-2">
                         {item.name}
                       </td>
-                      <td className="border border-[#c2c6cc] p-2">
+                      <td className="border border-[#c2c6cc] md:p-2">
                         {item.category}
                       </td>
-                      <td className="border border-[#c2c6cc] p-2">
+                      <td className="border border-[#c2c6cc] md:p-2">
                         {item.goal}
                       </td>
-                      <td className="border border-[#c2c6cc] p-2">
+                      <td className="border border-[#c2c6cc] md:p-2">
                         {item.expiration}
                       </td>
-                      <td className="border border-[#c2c6cc] p-2">
+                      <td className="border border-[#c2c6cc] md:p-2">
                         {item.supplier}
                       </td>
                     </tr>
@@ -234,8 +233,7 @@ const page = () => {
                 </tbody>
               </table>
             </div>
-          </div> */}
-
+          </div>
           <div>
             <h1 className="text-[25px] font-extrabold pb-1 pt-6">
               3. CÓMO DESHABILITAR EL USO DE COOKIES
@@ -251,7 +249,7 @@ const page = () => {
               El motivo por el que la mayoría de los navegadores ofrecen la
               posibilidad de administrar las cookies, es para obtener un control
               más preciso sobre la privacidad. Estos ajustes se encuentran
-              ubicados en las "opciones" o "preferencias" del menú de su
+              ubicados en las &apos;opciones&apos; o &apos;preferencias&apos; del menú de su
               navegador.
             </p>
             <p className="text-sm md:text-md xl:text-lg">

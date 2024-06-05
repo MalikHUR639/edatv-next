@@ -111,7 +111,7 @@ const Page = () => {
         className="text-black focus:outline-none rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
         type="button"
       ></button>
-      <div className="grid grid-cols-[100%] md:grid-cols-[68%,30%] max-w-[1200px] overflow-x-hidden m-auto mt-4 bg-white text-black gap-[2%]">
+      <div className="grid grid-cols-[100%] lg:grid-cols-[68%,30%] max-w-[1200px] overflow-x-hidden m-auto mt-4 bg-white text-black gap-[2%]">
         <div className="p-1 sm:p-2 xl:p-0">
           <Image
             src="https://edatv.news/filesedc/uploads/image/post/local-de-palma-tras-el-derrumbe_1200_800.webp"
